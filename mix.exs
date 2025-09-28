@@ -5,7 +5,7 @@ defmodule ChroxyClient.MixProject do
     [
       app: :chroxy_client,
       version: "0.3.0",
-      elixir: "~> 1.6",
+      elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description(),

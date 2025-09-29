@@ -22,3 +22,13 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 chroxy_client-*.tar
 
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
